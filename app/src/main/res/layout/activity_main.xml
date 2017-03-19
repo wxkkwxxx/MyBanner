@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.wxk.leads.mybanner.banner.BannerView
+        android:id="@+id/banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:widthProportion="1"
+        app:heightProportion="1"
+        app:dotSize="8dp"
+        app:dotGravity="right"
+        app:bottomBg="#88303F9F"
+        app:dotDistance="6dp"
+        app:indicatorFocus="@color/colorAccent"
+        app:indicatorNormal="@android:color/black"
+        />
+</RelativeLayout>
